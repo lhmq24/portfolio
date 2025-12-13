@@ -1,4 +1,4 @@
-import cvImage from '@/assets/image_CV.jpg'
+import cvImage from '@/assets/images/anh_CV.jpg'
 
 export const portfolioData = {
   // Personal Information
