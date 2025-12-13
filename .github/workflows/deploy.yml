@@ -36,4 +36,4 @@ jobs:
       - name: Deploy to GitHub Pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx gh-pages -d dist -u "github-actions[bot] <github-actions[bot]@users.noreply.github.com>" -r "https://x-access-token:${GITHUB_TOKEN}@github.com/lhmq24/portfolio.git"
+        run: npx gh-pages -d dist -r "https://x-access-token:${GITHUB_TOKEN}@github.com/lhmq24/portfolio.git"
