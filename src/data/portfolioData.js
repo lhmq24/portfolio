@@ -23,7 +23,7 @@ export const portfolioData = {
   skills: [
     {
       category: 'Frontend',
-      items: ['JavaScript (ES6+)', 'Vue.js 3 (Composition API)', 'HTML5', 'CSS3', 'Tailwind CSS'],
+      items: ['JavaScript (ES6+)', 'Vue.js 3 (Composition API)', 'ReactJs', 'HTML5', 'CSS3', 'Tailwind CSS'],
     },
     {
       category: 'Backend',
@@ -91,6 +91,12 @@ export const portfolioData = {
       status: 'Accepted',
       link: null,
     },
+    {
+      type: 'certification',
+      title: 'IELTS 7.0',
+      date: '28-Dec-2025',
+      issuer: 'IDP'
+    },
   ],
 
   // Education
@@ -99,14 +105,14 @@ export const portfolioData = {
       degree: 'Engineer in Information Technology',
       institution: 'Can Tho University (CTU)',
       location: 'Can Tho, Vietnam',
-      date: '08/2022 - Present',
-      achievements: ['Major: Information Technology', 'Year: 4', 'GPA: 3.71'],
+      date: '08/2022 - Now',
+      achievements: ['Major: Information Technology', 'Year: 4', 'GPA: 3.69'],
     },
   ],
 
   // Other Skills
   otherSkills: {
-    languages: ['English (Intermediate)', 'Japanese (Basic)', 'Vietnamese (Native)'],
+    languages: ['English (IELTS 7.0)', 'Japanese (Basic)', 'Vietnamese (Native)'],
     soft: ['Team Working', 'Public Speaking', 'Technical Writing'],
     interests: ['Open Source Contribution'],
   },
