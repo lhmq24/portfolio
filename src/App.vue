@@ -65,7 +65,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import {
-  User, Code, Briefcase, Award, GraduationCap, Heart
+  User, Code, Briefcase, Award, GraduationCap, Heart, Folder
 } from 'lucide-vue-next'
 
 import HeaderSection from './components/layout/HeaderSection.vue'
@@ -74,6 +74,7 @@ import NavigationBar from './components/layout/NavigationBar.vue'
 import AboutSection from './components/sections/AboutSection.vue'
 import SkillsSection from './components/sections/SkillsSection.vue'
 import ProjectsSection from './components/sections/ProjectsSection.vue'
+import ExperienceSection from './components/sections/ExperienceSection.vue'
 import PublicationsSection from './components/sections/PublicationsSection.vue'
 import EducationSection from './components/sections/EducationSection.vue'
 import OtherSkillsSection from './components/sections/OtherSkillsSection.vue'
@@ -86,7 +87,8 @@ const sidebarOpen = ref(false)
 const sections = [
   { id: 'about', label: 'About Me', icon: User },
   { id: 'skills', label: 'Skills', icon: Code },
-  { id: 'projects', label: 'Projects', icon: Briefcase },
+  { id: 'projects', label: 'Projects', icon: Folder },
+  { id: 'experiences', label: 'Experience', icon: Briefcase },
   { id: 'publications', label: 'Pubs/Certs', icon: Award },
   { id: 'education', label: 'Education', icon: GraduationCap },
   { id: 'other', label: 'Other Skills', icon: Heart }
@@ -96,6 +98,7 @@ const sectionMap = {
   about: AboutSection,
   skills: SkillsSection,
   projects: ProjectsSection,
+  experiences: ExperienceSection,
   publications: PublicationsSection,
   education: EducationSection,
   other: OtherSkillsSection
@@ -106,6 +109,7 @@ const sectionProps = computed(() => ({
   personal: portfolioData.personal,
   skills: portfolioData.skills,
   projects: portfolioData.projects,
+  experiences: portfolioData.experiences,
   items: portfolioData.publicationsAndCerts,
   education: portfolioData.education,
   otherSkills: portfolioData.otherSkills

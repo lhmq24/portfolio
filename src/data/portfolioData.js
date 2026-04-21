@@ -4,30 +4,41 @@ export const portfolioData = {
   // Personal Information
   personal: {
     name: 'Le Hoang Minh Quan',
-    title: 'Backend Developer',
+    title: 'DevOps Engineer | Backend Developer',
     email: 'lhmquan.dev@gmail.com',
     phone: '+84838258292',
     location: 'Can Tho, Vietnam',
     github: 'https://github.com/lhmq24',
-    image: cvImage
+    image: cvImage,
   },
 
   // Objective/About
   objective: {
     title: 'About Me',
     description:
-      'As a Backend Developer, I aim to obtain a Backend Developer position where I can apply my knowledge to build reliable backend services. I concentrate on hands-on experience with API development, database integration, and server-side logic while contributing to real-world projects. I am eager to learn industry practices, improve code quality, and support the engineering team.',
+      'I\'m a fourth-year IT student with a strong interest in building and shipping reliable, scalable, and user-focused systems. I have basic experience working across the stack, including frontend and backend development, as well as DevOps practices.\n\nMy primary focus and preferred career path is DevOps, followed by Backend Development, where I aim to design efficient systems and support robust deployment pipelines. I continuously improve my skills through hands-on projects and open-source contributions.',
   },
 
   // Skills
   skills: [
     {
       category: 'Frontend',
-      items: ['JavaScript (ES6+)', 'Vue.js 3 (Composition API)', 'ReactJs', 'HTML5', 'CSS3', 'Tailwind CSS'],
+      items: [
+        'JavaScript (ES6+)',
+        'Vue.js 3 (Composition API)',
+        'ReactJs',
+        'HTML5',
+        'CSS3',
+        'Tailwind CSS',
+      ],
     },
     {
       category: 'Backend',
-      items: ['Java (Java 21)', 'JavaScript', 'Nodejs + Express.js'],
+      items: ['Java (Java 21)', 'Spring Boot', 'JavaScript', 'Nodejs + Express.js'],
+    },
+    {
+      category: 'DevOps',
+      items: ['AWS', 'Docker', 'Terraform', 'Linux'],
     },
     {
       category: 'Database',
@@ -35,7 +46,7 @@ export const portfolioData = {
     },
     {
       category: 'Tools',
-      items: ['Git', 'GitHub', 'Postman', 'Docker', 'Linux', 'Apache'],
+      items: ['Git', 'GitHub', 'Postman', 'Apache'],
     },
     {
       category: 'Other',
@@ -79,6 +90,26 @@ export const portfolioData = {
     },
   ],
 
+  // Experience
+  experiences: [
+    {
+      period: '12/2025 - 4/2026',
+      title: 'Frontend Developer Intern',
+      company: 'UTA Solution',
+      location: 'Hybrid (Remote + On-site)',
+      description:
+        "Contributed to the debugging and development processes, improved performance and scalability of customer's website.",
+      technologies: ['ReactJS', 'TailwindCSS', 'NextJS'],
+      highlights: [
+        'Developed and quality-checked a web application for medical professionals, focusing on usability, robustness and responsive design.',
+        'Optimized application performance by implementing debounced form validation, data caching and client-side generated Metadata for better SEO.',
+        'Investigated and resolved frontend and backend issues, including API errors and UI rendering problems.',
+        'Collaborated with backend developers by troubleshooting and fixing issues related to Django server endpoints.',
+      ],
+      link: 'https://medmcr.com/',
+    },
+  ],
+
   // Publications & Certifications
   publicationsAndCerts: [
     {
@@ -95,7 +126,7 @@ export const portfolioData = {
       type: 'certification',
       title: 'IELTS 7.0',
       date: '28-Dec-2025',
-      issuer: 'IDP'
+      issuer: 'IDP',
     },
   ],
 

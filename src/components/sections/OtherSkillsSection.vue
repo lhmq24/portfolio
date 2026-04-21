@@ -9,7 +9,7 @@
     </div>
 
     <!-- Cards -->
-    <div class="grid md:grid-cols-3 gap-3 w-full">
+    <div class="grid md:grid-cols-3 gap-3 w-full pt-10">
       
       <!-- Languages -->
       <div class="border border-slate-200 rounded-lg p-3">
