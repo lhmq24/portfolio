@@ -4,7 +4,7 @@ export const portfolioData = {
   // Personal Information
   personal: {
     name: 'Le Hoang Minh Quan',
-    title: 'DevOps Engineer | Backend Developer',
+    title: 'DevOps Engineer',
     email: 'lhmquan.dev@gmail.com',
     phone: '+84838258292',
     location: 'Can Tho, Vietnam',
@@ -108,6 +108,16 @@ export const portfolioData = {
       ],
       link: 'https://medmcr.com/',
     },
+    {
+      period: '05/2026 - Now',
+      title: 'DevOps Engineer',
+      company: 'NextEdge Co., Ltd',
+      location: 'Full-time (On-site)',
+      description: 'Responsible for designing and maintaining the infrastructure and deployment pipelines for the company\'s applications.',
+      technologies: ['AWS', 'Docker', 'Terraform', 'Kubernetes', 'Linux'],
+      highlights: [],
+      link: null,
+    }
   ],
 
   // Publications & Certifications
