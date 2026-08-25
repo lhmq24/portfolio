@@ -16,7 +16,7 @@ export const portfolioData = {
   objective: {
     title: 'About Me',
     description:
-      'I\'m a fourth-year IT student with a strong interest in building and shipping reliable, scalable, and user-focused systems. I have basic experience working across the stack, including frontend and backend development, as well as DevOps practices.\n\nMy primary focus and preferred career path is DevOps, followed by Backend Development, where I aim to design efficient systems and support robust deployment pipelines. I continuously improve my skills through hands-on projects and open-source contributions.',
+      "I'm a fourth-year IT student with a strong interest in building and shipping reliable, scalable, and user-focused systems. I have basic experience working across the stack, including frontend and backend development, as well as DevOps practices.\n\nMy primary focus and preferred career path is DevOps, followed by Backend Development, where I aim to design efficient systems and support robust deployment pipelines. I continuously improve my skills through hands-on projects and open-source contributions.",
   },
 
   // Skills
@@ -113,11 +113,15 @@ export const portfolioData = {
       title: 'DevOps Engineer',
       company: 'NextEdge Co., Ltd',
       location: 'Full-time (On-site)',
-      description: 'Responsible for designing and maintaining the infrastructure and deployment pipelines for the company\'s applications.',
+      description:
+        "Responsible for designing and maintaining the infrastructure and deployment pipelines for the company's applications.",
       technologies: ['AWS', 'Docker', 'Terraform', 'Kubernetes', 'Linux'],
-      highlights: [],
+      highlights: [
+        'Implemented CI/CD pipelines using Azure DevOps for automated scanning, testing, and deployment of applications.',
+        'Manage Kubernetes system for deploying and patching',
+      ],
       link: null,
-    }
+    },
   ],
 
   // Publications & Certifications
@@ -130,7 +134,7 @@ export const portfolioData = {
       publisher: "FTNCT'08 Conference, Procedia Computer Science (Elsevier), 2025.",
       year: '2025',
       status: 'Accepted',
-      link: null,
+      link: 'https://www.sciencedirect.com/science/article/pii/S1877050926015280',
     },
     {
       type: 'certification',
