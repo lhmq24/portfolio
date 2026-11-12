@@ -16,7 +16,7 @@ export const portfolioData = {
   objective: {
     title: 'About Me',
     description:
-      "I'm a fourth-year IT student with a strong interest in building and shipping reliable, scalable, and user-focused systems. I have basic experience working across the stack, including frontend and backend development, as well as DevOps practices.\n\nMy primary focus and preferred career path is DevOps, followed by Backend Development, where I aim to design efficient systems and support robust deployment pipelines. I continuously improve my skills through hands-on projects and open-source contributions.",
+      "I'm a DevSecOps engineer with a strong interest in building and shipping reliable, scalable, and user-focused systems. I have basic experience working with the Infrastructure as Code (IaC), CI/CD pipelines, CloudOps and System Administration. I am passionate about learning new technologies and tools to improving my skills in DevSecOps practices.",
   },
 
   // Skills
@@ -27,6 +27,7 @@ export const portfolioData = {
         'JavaScript (ES6+)',
         'Vue.js 3 (Composition API)',
         'ReactJs',
+        'NextJs',
         'HTML5',
         'CSS3',
         'Tailwind CSS',
@@ -34,24 +35,33 @@ export const portfolioData = {
     },
     {
       category: 'Backend',
-      items: ['Java (Java 21)', 'Spring Boot', 'JavaScript', 'Nodejs + Express.js'],
+      items: ['JavaScript', 'Nodejs + Express.js'],
     },
     {
-      category: 'DevOps',
-      items: ['AWS', 'Docker', 'Terraform', 'Linux'],
+      category: 'DevSecOps',
+      items: [
+        'AWS',
+        'GCP',
+        'Terraform',
+        'Linux',
+        'Kubernetes',
+        'CI/CD',
+        'Monitoring & Logging (Prometheus, Grafana, Opentelemetry)',
+        'SIEM (Wazuh)',
+      ],
     },
     {
       category: 'Database',
-      items: ['PostgreSQL', 'MySQL'],
+      items: ['PostgreSQL', 'MySQL', 'MariaDB', 'Firebase Firestore'],
     },
     {
       category: 'Tools',
-      items: ['Git', 'GitHub', 'Postman', 'Apache'],
+      items: ['Git', 'GitHub', 'Postman', 'Apache', 'Nginx', 'Prometheus', 'Grafana', 'Opentelemetry', 'Wazuh'],
     },
-    {
-      category: 'Other',
-      items: ['RESTful API', 'JWT', 'API documentation (Swagger/OpenAPI)'],
-    },
+    // {
+    //   category: 'Other',
+    //   items: ['RESTful API', 'JWT', 'API documentation (Swagger/OpenAPI)'],
+    // },
   ],
 
   // Projects
@@ -110,15 +120,18 @@ export const portfolioData = {
     },
     {
       period: '05/2026 - Now',
-      title: 'DevOps Engineer',
+      title: 'DevSecOps Engineer',
       company: 'NextEdge Co., Ltd',
       location: 'Full-time (On-site)',
       description:
-        "Responsible for designing and maintaining the infrastructure and deployment pipelines for the company's applications.",
-      technologies: ['AWS', 'Docker', 'Terraform', 'Kubernetes', 'Linux'],
+        "Responsible for designing, implementing and maintaining the infrastructure and deployment pipelines for the company's client applications.",
+      technologies: ['AWS', 'GCP', 'Terraform', 'Linux', 'Kubernetes', 'CI/CD', 'Monitoring & Logging (Prometheus, Grafana, Opentelemetry)', 'SIEM (Wazuh)'],
       highlights: [
-        'Implemented CI/CD pipelines using Azure DevOps for automated scanning, testing, and deployment of applications.',
-        'Manage Kubernetes system for deploying and patching',
+        'Implemented CI/CD pipelines using Azure DevOps/GitHub Actions for automated SAST, DAST, Testing, and GitOps deployment of applications.',
+        'Managed Kubernetes system for deploying and patching',
+        'Implemented monitoring and logging solutions using Prometheus, Grafana, and Opentelemetry for real-time insights into system performance and health.',
+        'Implemented SIEM solution using Wazuh for security monitoring and threat detection.',
+        'Provided Infrastructure as Code (IaC) solutions using Terraform for consistent and repeatable infrastructure provisioning.',
       ],
       link: null,
     },
@@ -150,8 +163,8 @@ export const portfolioData = {
       degree: 'Engineer in Information Technology',
       institution: 'Can Tho University (CTU)',
       location: 'Can Tho, Vietnam',
-      date: '08/2022 - Now',
-      achievements: ['Major: Information Technology', 'Year: 4', 'GPA: 3.69'],
+      date: '08/2022 - 10/2026',
+      achievements: ['Major: Information Technology (High Quality Program)', 'GPA: 3.70'],
     },
   ],
 
